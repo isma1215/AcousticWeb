@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Acoustic web</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+    <header>
+        <section class="container">
+         <a href="#inicio">
+             <img class="logo" src="/img/logo_transparent.png" alt="logo_acoustic">
+         </a>
+         <button class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+            <svg class="none"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+         </button>
+
+        <nav class="menu close">
+            <a href="#inicio">Inicio</a>
+            <a href="#instrumentos">Instrumentos</a>
+            <a href="#notas">Como Afinar</a>
+            <a href="#afinador">Afinador</a>
+        </nav>
+        </section>
+    </header>
+    <section id="inicio" class="home">
+        <article class="hero-img" style="--image:url(/img/hero_img.jpg); --attachment:fixed">
+          <aside class="hero-img-opacity" style="--opacity-color:var(--black-alpha-color)">
+            <div class="hero-img-content">
+              <h2 class="hero-img-title" >La música puede cambiar el mundo</h2>
+              <h3 class="hero-img-subtitle">
+                Porque puede cambiar a las personas
+              </h3>
+            </div>
+          </aside>
+        </article>
+      </section>
+    
+    <section id="bienvenida" class="bienvenida container">
+       <article>
+        <h2>¿Qué encontraras en nuestra página?</h2> 
+        <p>Encontraras artículos sobre los principales instrumentos de cuerdas que son tocados en el mundo como la guitarra, el violín, el ukelele entre otros.
+        y tambien herramientas que te serán de mucha utilidad con los instrumentos como un indispensable afinador ya que si el instrumento no este afinado no sonara bien ni con horas de práctica.
+        </p>
+        </article>
+        <img class="img_inicio" src="/img/notas_music.png" alt="guitarra acustica"> 
+    </section>
+
+    <section id="instrumentos" class="container instrumentos">
+        <h2>Conoce los principales instrumentos de cuerdas o cordófonos</h2>
+        
+        <article>
+        <br>
+        <h3>La Guitarra </h3>
+        <p>Es el instrumento por mucho el más famoso del mundo por esto puedes encontrar mucha información sobre este en la WEB. <br>
+        Dependiendo del tipo de guitarra tendría cuerdas de nailon o de metal, las cuerdas de nailon se recomiendan para principiantes ya que lastiman menos los dedos al precionarlas como suele decirse pisarlas. Cuenta con 6 cuerdas las cuales son numeradas por el grosor siendo la mas delgada la cuerda 1 o primera y la mas gruesa 6 o sexta.</p>
+        <img src="/img/guitarra.jpg" alt="Guitarra">
+        </article>
+        <article>
+          <br>
+          <h3>Bajo electrico o simplemente bajo</h3>
+          <p> Similar en apariencia y construcción a la guitarra eléctrica pero con un cuerpo de mayores dimensiones, un mástil de mayor longitud y escala y, normalmente, cuatro cuerdas afinadas según la afinación estándar del contrabajo, nacio de la necesidad de producir los sonidos rítmicos graves con un instrumento más compacto, barato, fácil de producir y transportar que el contrabajo.</p>
+          <img src="/img/bajo.jpg" alt="bajo electrico">
+        </article>
+        <article>
+          <br>
+          <h3>Violin</h3>
+          <p>Es el más pequeño y agudo entre los de su clase, que se compone de una caja de resonancia en forma de 8, un mástil sin trastes y cuatro cuerdas que se hacen sonar con un arco.En los violines antiguos, las cuerdas eran de tripa. Hoy pueden ser también de metal o de tripa entorchada con aluminio, plata o acero; la cuerda en mi, la más aguda llamada cantino es directamente un hilo de acero, y, ocasionalmente, de oro. En la actualidad se están fabricando cuerdas de materiales sintéticos que tienden a reunir la sonoridad lograda por la flexibilidad de la tripa y la resistencia de los metales.</p>
+           <img src="/img/violin.jpg" alt="">
+        </article>
+        <article>
+          <br>
+          <h3>Ukelele</h3>
+          <p>
+            utilizado como instrumento principal en la música de las islas Hawái, Tahití y la isla de Pascua que originalmente tenía cinco cuerdas.Es una adaptación del cavaquinho portugués creada en la década de 1880 en Hawái por inmigrantes portugueses. Posteriormente se difundió por la Polinesia francesa y en la Isla de Pascua con un tallado más rústico, dando lugar al ukelele tahitiano o polinésico. En la Polinesia no existían instrumentos de cuerda antes de los siglos XIX y XX, respectivamente, siendo el ukelele un instrumento reciente en esta cultura.
+          </p>
+          <img src="/img/ukelel.jpg" alt="">
+          <br>
+        </article>
+        
+    </section> 
+    <section id="notas" class="como-afinar container">
+      <h2>Como afinar un instrumentos de cuerdas</h2>
+      <article>
+        <p>Cuando empezamos a tocar, lo primero que necesitamos es tener nuestra viola bien afinada. En el caso de que no tengamos a alguien que nos pueda afinar, hoy en día, gracias a las nuevas tecnologías,Vamos a encontrar una gran cantidad de aplicaciones gratuitas.</p>
+        <p>Los afinadores no usan las notas con el nombre que nosotros conocemos, es decir, el sistema latino. Usan el sistema alemán o anglosajón, un sistema que utiliza letras. La equivalencia es muy sencilla teniendo en cuenta que se empieza por la letra A y equivale a la nota LA, la B es el SI, la C es el DO,…. En esta tabla lo vemos más esquematizado.</p>
+        <img src="/img/notas.png" alt="">
+        <br>
+        <br>
+        <p>La afinación consiste en que nuestro instrumento produzca una nota en específico, dicho en otras palabras, que oscile entre una frecuencia cercana a la nota del estándar de la afinación. En el caso de los instrumentos de cuerdas esto se logra con la tensión de las cuerdas entre mas tención la cuerda tendrá una frecuencia mayor y viceversa menor tensión menor frecuencia.</p>
+        <p>Debes de conocer como se numeran las cuerdas de tu instrumento para identificar que nota corresponde a cada una de ellas. Puedes verlo en las siguientes imágenes</p>
+        <div class="img-afi">
+          <img class="afinacion-img" src="/img/afinacion-ukelele.jpg" alt="">
+          <img class="afinacion-img"src="/img/afinacion-violin.jpg" alt="">
+          <img class="afinacion-img"src="/img/ainacion-guitarra.jpg" alt="">
+        </div>
+        <p>Bueno ya conocemos lo teórico comencemos con lo práctico, con la ayuda de un afinador puedes encontrar uno al final de la web y las notas de afinación de varios instrumentos, tocamos la cuerda repetitivamente la cuerda afinar, y observamos la frecuencia marcada por el afinador.</p>
+        <p>
+          Dependiendo si la frecuencia es mayor ala nota que queremos afinar debemos aflojar la cuerda y tocarla repetitivamente hasta ajustar la frecuencia se asimilar o la misma, muchas veces no podemos ser exactos pero lo más cercano sirve. 
+          Nota: si la frecuencia es menor se aprieta la cuerda o se aumenta la tensión.
+        </p>
+        <p>Teves de seguir este simple proceso en todas las cuerdas para que todas generen la nota adecuada y suene armónicamente así el instrumento sonara perfectamente estando listo para tocar.</p>
+        
+        <p>YouTube tiene almacenados miles de videos de como afinar un instrumento aquí te dejamos los mejores que para nosotros son los mejor explicado y puedas entender mucho mejor como se afina un instrumento correctamente.</p>
+        <div class="videos-youtube">
+          <h3>videos para mayor ayuda</h3>
+          <iframe src="https://www.youtube.com/embed/AbKvyg8Z9us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/12gpKeSUvHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/bBG1_U3teiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/Vb04wMG_KTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <br>
+      </article>
+    </section>
+    
+    <section class="container-notas">
+      <nav class="lbl-menu">
+        <label for="radio1">Guitarra Estandar</label>
+        <label for="radio2">Guitarra Dropped D</label>
+        <label for="radio3">Violin</label>
+        <label for="radio4">Ukelele Soprano</label>
+        <label for="radio5">Ukelele Barintono</label>
+      </nav>
+       
+      <div class="content">
+        <input type="radio" checked class="none" name="radio" id="radio1">
+        <input type="radio" class="none" name="radio" id="radio2">
+        <input type="radio" class="none" name="radio" id="radio3">
+        <input type="radio" class="none" name="radio" id="radio4">
+        <input type="radio" class="none" name="radio" id="radio5">
+       
+        <article class="tab1">
+        <h3>Afinacion Estandar Guitarra</h3>
+        <ul class="afinador-notas">
+          <li>1ra "E4" 329.682 Hz </li>
+          <li>2da "B3" 261.626 Hz </li>
+          <li>3ra "G3" 195.998 Hz </li>
+          <li>4ta "D3" 146.832 Hz </li>
+          <li>5ta "A2" 110.00 Hz </li>
+          <li>6ta "E2" 82.406 Hz </li>
+        </ul>
+        </article>
+
+        <article class="tab2">
+        <h3>Afinacion Guitarra Dropped D</h3>
+        <ul class="afinador-notas">
+          <li>1ra "E4" 329.682 Hz </li>
+          <li>2da "B3" 261.626 Hz </li>
+          <li>3ra "G3" 195.998 Hz </li>
+          <li>4ta "D3" 146.832 Hz </li>
+          <li>5ta "A2" 110.000 Hz </li>
+          <li>6ta "D2" 73.4762 Hz </li>
+        </ul>
+        </article>
+
+        <article class="tab3">
+        <h3>Afinacion de Violin</h3>
+        <ul class="afinador-notas">
+          <li>1ra "E5" 659.255HZ </li>
+          <li>2da "A4" 440.000HZ </li>
+          <li>3ra "D4" 293.665HZ </li>
+          <li>4ta "G3" 195.998HZ </li>
+        </ul>
+        </article>
+
+         <article class="tab4">
+        <h3>Afinacion de Ukelele Soprano</h3>
+        <ul class="afinador-notas">
+          <li>1ra "A4" 440.000 Hz </li>
+          <li>2da "E4" 329.628 Hz </li>
+          <li>3ra "C4" 261.626 Hz </li>
+          <li>4ta "G4" 391.99 Hz </li>
+        </ul>
+        </article>
+        
+        <article class="tab5">
+        <h3>Ukelele Baritono</h3>
+        <ul class="afinador-notas">
+          <li>1ra "E4" 329.628 Hz </li>
+          <li>2da "B3" 246.942 Hz </li>
+          <li>3ra "G3" 195.998 Hz </li>
+          <li>4ta "D3" 146.832 Hz </li>
+        </ul>
+        </article>
+
+      </div>
+    
+    </section>
+    
+    <section class="afinador-con container" id="afinador">
+        
+        <h2>Afinador</h2>
+        <article class="afinador">
+          <p id='result'><span id="frecuencia">00.00</span> Hz</p>
+          <button class="btn" id="Act_Afinador" class="activar_afinador">Activar</button>
+          <button class="btn" id="Dec_Afinador">Desactivar</button>
+        </article>
+       
+    </section>
+    <footer>
+      <a href="#inicio">
+        <img class="logo" src="/img/logo_transparent.png" alt="logo_acoustic">
+     </a>
+     <div>
+       <h3>Desarolladores</h3>
+       <h3>Moisés Sánchez González</h3>
+       <h3>Ismael Rodiguez Morneo</h3>
+    </div>
+    </footer>
+
+    
+   
+  
+    <script src="/Js/script.js"></script>
+    <script src="Js/sketch.js"></script>
+</body>
+</html>
